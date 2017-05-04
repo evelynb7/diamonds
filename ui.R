@@ -31,7 +31,8 @@ shinyUI(navbarPage("Diamonds",
                                 ) # end mainPanel
                               ) # end sidebarLayout
                             ) # end fluidPage
-                   ) #end tabPanel "Price Estimator"
+                   ), #end tabPanel "Price Estimator"
+                   tabPanel(HTML("<li><a href=\"http://github.com/evelynb7/diamonds\" target=\"_blank\">Code"))
                    
 ) # end navbarPage
 ) # end ShinyUI

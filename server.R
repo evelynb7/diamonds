@@ -8,7 +8,7 @@ library(plotly)
 library(scales)
 library(knitr)
 
-rmdfiles <- c("intro.rmd")
+rmdfiles <- c("intro.Rmd")
 sapply(rmdfiles, knit, quiet = T)
 
 shinyServer(function(input, output, session) {
